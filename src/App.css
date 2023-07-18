@@ -1,38 +1,305 @@
-.App {
+* {
+  margin: 0;
+}
+
+input, button {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dashboardContainer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 70px 1fr;
+  height: 100vh;
+  grid-template-areas: "logoContainer header",
+                        "sideNav dashboard";
+}
+
+.logoContainer {
+  background-color: #FFF;
+  width: 100%;
+  margin: auto;
+}
+
+.logoImage {
+  width: 73px;
+  height: 47px;
+}
+
+.sideNav {
+  background-color: #FFF;
+  box-shadow: 0px 5px 20px 0px #0000000D;
+}
+
+.navItem {
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navItem p {
+  font-size: 15px;
+}
+
+.navIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.activeItem {
+  background-color: #1B59F81A;
+  border-radius: 10px;
+  color: #1B59F8;
+}
+
+.header {
+  background-color: #F9F9F9;
+  padding: 15px 30px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000001A;
+}
+
+.Header h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Header button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  background-color: #1B59F8;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #FFF;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.iconAdd {
+  margin-right: 10px;
+}
+
+.dashboard {
+  background-color: #F9F9F9;
+}
+
+.upperDash {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-column-gap: 20px;
+  margin: 5px 50px;
+  grid-template-areas: "customerChart statusChart";
+}
+
+.customerChart {
+  background-color: #FFF;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.customerChart h2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.StatusCharts h2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.customerChart {
+  display: flex;
+  justify-content: center;
+}
+
+.DoughnutChart {
+  margin: 10px;
+}
+
+.caption {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 10px;
+  color: #A7A7A7;
+  transform: translateY(-20px);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.innertext {
+  transform: translateY(-62px);
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.statusChart {
+  background-color: #FFF;
+  border-radius: 30px;
+  padding: 10px 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.activeLine, .inactiveLine {
+  margin: 20px 0;
+}
+
+.activeLine p, .inactiveLine p {
+  font-family: 'Roboto';
+  font-size: 500;
+  font-size: 14px;
+  color: #A7A7A7;
+}
+
+.value {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.fullBar {
+  width: 100%;
+  height: 8px;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px 0px;
+}
+
+.activeBarFill {
+  height: 100%;
+  background-color: #16C09861;
+  transition: width 0.5s ease-in-out;
+}
+
+.inaactiveBarFill {
+  height: 100%;
+  background-color: #FF6B6B;
+  transition: width 0.5s ease-in-out;
+}
+
+.dataTable {
+  background-color: #FFF;
+  border-radius: 30px;
+  margin: 10px 50px;
+  padding: 10px 20px;
+}
+
+.tableHeader {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center
+}
+
+.filters {
+  display: flex;
+}
+
+.heading h2 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: #16C098;
+}
+
+.searchBar {
+  background-color: #F9FBFF;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.filter select {
+  background-color: #F9FBFF;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.searchBar input, button{
+  background-color: transparent;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 3px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  border-bottom: 1px solid #EFF0F6;
+}
+
+th, .tableStatus {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  color: #B5B7C0;
+}
+
+td {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  color: #292D32;
+  padding: 10px 20px;
+}
+
+.active {
+  background-color: #16C09861;
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  color: #008767;
+  padding: 5px 10px;
+  width: 90px;
+}
+
+.inactive {
+  background-color: #FFC5C5;
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  color: #DF0404;
+  padding: 5px 10px;
+  width: 90px;
+}
+
+.tableFooter {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 5px
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination button {
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  margin: 5px 2px;
 }
