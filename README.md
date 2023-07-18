@@ -1,4 +1,4 @@
-# JSON Form App
+# Dashboard UI
 
 A UI of a dashboard
 
