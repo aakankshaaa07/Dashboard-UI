@@ -14,7 +14,7 @@ function Table() {
       "phone": "(225) 555-0118",
       "email": "jane@microsoft.com",
       "country": "United States",
-      "dateAdded": "02-02-2023",
+      "dateAdded": "2023-02-02",
       "status": "Active"
     },
     {
@@ -24,7 +24,7 @@ function Table() {
       "phone": "(205) 555-0100",
       "email": "floyd@yahoo.com",
       "country": "Croatia",
-      "dateAdded": "04-01-2023",
+      "dateAdded": "2023-01-04",
       "status": "Inactive"
     },
     {
@@ -34,7 +34,7 @@ function Table() {
       "phone": "(302) 555-0107",
       "email": "ronald@adobe.com",
       "country": "Israel",
-      "dateAdded": "04-03-2023",
+      "dateAdded": "2023-03-04",
       "status": "Inactive"
     },
     {
@@ -44,7 +44,7 @@ function Table() {
       "phone": "(252) 555-0126",
       "email": "marvin@tesla.com",
       "country": "Iran",
-      "dateAdded": "04-07-2023",
+      "dateAdded": "2023-07-04",
       "status": "Active"
     },
     {
@@ -54,7 +54,7 @@ function Table() {
       "phone": "(629) 555-0129",
       "email": "jerome@google.com",
       "country": "Germany",
-      "dateAdded": "04-04-2023",
+      "dateAdded": "2023-04-04",
       "status": "Active"
     },
     {
@@ -64,7 +64,7 @@ function Table() {
       "phone": "(406) 555-0120",
       "email": "kathryn@microsoft.com",
       "country": "Brazil",
-      "dateAdded": "16-03-2023",
+      "dateAdded": "2023-03-16",
       "status": "Active"
     },
     {
@@ -74,7 +74,7 @@ function Table() {
       "phone": "(555) 123-4567",
       "email": "emily@cisco.com",
       "country": "Finland",
-      "dateAdded": "17-06-2023",
+      "dateAdded": "2023-06-17",
       "status": "Inactive"
     },
     {
@@ -84,7 +84,7 @@ function Table() {
       "phone": "(456) 789-0123",
       "email": "benjamin@caterpillar.com",
       "country": "China",
-      "dateAdded": "04-07-2023",
+      "dateAdded": "2023-07-04",
       "status": "Active"
     },
     {
@@ -94,7 +94,7 @@ function Table() {
       "phone": "(321) 098-7654",
       "email": "sophia@apple.com",
       "country": "India",
-      "dateAdded": "08-05-2023",
+      "dateAdded": "2023-05-08",
       "status": "Active"
     },
     {
@@ -104,7 +104,7 @@ function Table() {
       "phone": "(890) 123-4567",
       "email": "samuel@walmart.com",
       "country": "South Korea",
-      "dateAdded": "10-01-2023",
+      "dateAdded": "2023-01-10",
       "status": "Inactive"
     },
     {
@@ -114,7 +114,7 @@ function Table() {
       "phone": "(567) 890-1234",
       "email": "olivia@meta.com",
       "country": "Switzerland",
-      "dateAdded": "05-07-2023",
+      "dateAdded": "2023-05-07",
       "status": "Inactive"
     },
     {
@@ -124,7 +124,7 @@ function Table() {
       "phone": "(456) 789-0123",
       "email": "Jacob@visa.com",
       "country": "Egypt",
-      "dateAdded": "22-06-2023",
+      "dateAdded": "2023-06-22",
       "status": "Active"
     },
     {
@@ -134,7 +134,7 @@ function Table() {
       "phone": "(234) 567-8901",
       "email": "ava@samsung.com",
       "country": "Japan",
-      "dateAdded": "25-02-2023",
+      "dateAdded": "2023-02-25",
       "status": "Active"
     },
     {
@@ -144,7 +144,7 @@ function Table() {
       "phone": "(678) 901-2345",
       "email": "ethan@walmart.com",
       "country": "Australia",
-      "dateAdded": "12-07-2023",
+      "dateAdded": "2023-07-12",
       "status": "Active"
     },
     {
@@ -154,7 +154,7 @@ function Table() {
       "phone": "(789) 012-3456",
       "email": "isabella@nvidia.com",
       "country": "Turkey",
-      "dateAdded": "19-03-2023",
+      "dateAdded": "2023-03-19",
       "status": "Active"
     },
     {
@@ -164,7 +164,7 @@ function Table() {
       "phone": "(555) 987-6543",
       "email": "liam@aramco.com",
       "country": "Saudi Arabia",
-      "dateAdded": "17-05-2023",
+      "dateAdded": "2023-05-17",
       "status": "Active"
     },
     {
@@ -174,7 +174,7 @@ function Table() {
       "phone": "(555) 987-6543",
       "email": "Henry@gs.com",
       "country": "New Zealand",
-      "dateAdded": "02-07-2023",
+      "dateAdded": "2023-07-02",
       "status": "Active"
     },
     {
@@ -184,7 +184,7 @@ function Table() {
       "phone": "(555) 876-5432",
       "email": "noah@jpmc.com",
       "country": "UAE",
-      "dateAdded": "23-05-2023",
+      "dateAdded": "2023-05-23",
       "status": "Active"
     },
     {
@@ -194,7 +194,7 @@ function Table() {
       "phone": "(555) 876-5432",
       "email": "amelia@png.com",
       "country": "South Africa",
-      "dateAdded": "15-01-2023",
+      "dateAdded": "2023-01-15",
       "status": "Inactive"
     },
     {
@@ -204,7 +204,7 @@ function Table() {
       "phone": "(555) 654-3210",
       "email": "john@mastercard.com",
       "country": "Belgium",
-      "dateAdded": "26-01-2023",
+      "dateAdded": "2023-01-26",
       "status": "Active"
     },
     {
@@ -214,7 +214,7 @@ function Table() {
       "phone": "(987) 654-3210",
       "email": "aaron@amazon.com",
       "country": "United Kingdom",
-      "dateAdded": "21-05-2023",
+      "dateAdded": "2023-05-21",
       "status": "Inactive"
     }
   ]
@@ -225,26 +225,47 @@ function Table() {
   // To manage the search input
   const [searchQuery, setSearchQuery] = useState('');
 
+  // To manage the sorting features
+  const [sortOption, setSortOption] = useState('');
+
   // Maximum number of entries displayed on the page
   const pageSize = 4;
 
-  // Compares the lowercase version of the name property with the lowercase version of the search query to perform a case-insensitive search and filters the data
-  const filteredData = customers.filter((customer) =>
-    customer.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // Function to filter and sort the data based on search query and select option
+  const filteredAndSortedData = customers.filter((item) =>
+    item.name.toLowerCase().includes(searchQuery.toLowerCase())
+  ).sort((a, b) => {
+    if (sortOption === 'alphabetical') {
+      return a.name.localeCompare(b.name);
+    } else if (sortOption === 'country') {
+      return a.country.localeCompare(b.country);
+    } else if (sortOption === 'company') {
+      return a.company.localeCompare(b.company);
+    } else if (sortOption === 'newest') {
+      return new Date(b.dateAdded) - new Date(a.dateAdded);
+    } else {
+      return 0;
+    }
+  });
 
   // Calculate the total number of pages based on the data and page size
-  const totalPages = Math.ceil(filteredData.length / pageSize);
+  const totalPages = Math.ceil(filteredAndSortedData.length / pageSize);
 
   // Slice the data to be displayed on the current page
   const startIndex = (currentPage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
-  const currentData = filteredData.slice(startIndex, endIndex);
+  const currentData = filteredAndSortedData.slice(startIndex, endIndex);
 
   // Function is called when a page button is clicked, and updates the currentPage state accordingly
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
+
+  // Function to handle sorting based on the selected option
+  const handleSort = (event) => {
+    setSortOption(event.target.value);
+  };
+
   // Function is called when a search query is made
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
@@ -269,7 +290,7 @@ function Table() {
             />
           </div>
           <div className="filter">
-            <select>
+            <select onChange={handleSort} value={sortOption}>
               <option value="">Sort By</option>
               <option value="newest">Newest</option>
               <option value="alphabetical">Alphabetical</option>
@@ -306,7 +327,7 @@ function Table() {
       <div className="tableFooter">
         <div className="tableStatus">
           {/* Shows the number of entries visible out of the total */}
-          Showing data {startIndex+1} to {endIndex>filteredData.length? filteredData.length: endIndex} of {filteredData.length} entries
+          Showing data {startIndex+1} to {endIndex>filteredAndSortedData.length? filteredAndSortedData.length: endIndex} of {filteredAndSortedData.length} entries
         </div>
         <div className="pagination">
           {Array.from({ length: totalPages }, (_, index) => (
